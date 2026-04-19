@@ -48,13 +48,18 @@ Next came what to make the thing out of. If you were able to read my chickenscra
 
 So plywood. Considering it didn't need to really carry any weight, I opted for simple 1/4" veneer board, with 2x2 to hold the corners up. It's cheap, and awful to cut across the grain, but it really just needed to be "a shape" rather than eye-pleasing, because the plan was to put a felt cover over it that we could decorate.
 
+<video width="640" height="480" controls>
+  <source src="/assets/videos/primordial-ooze-part-3/moving-around.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 For the dimensions, I wanted to keep it to a single sheet of 24"x48" plywood, and to have dimensions that appear "natural". This resulted in the thing being 55cm long, and 33cm wide. This was largely because I found that the "cuteness" factor peaked if it followed the golden ratio. I have no idea where I came up with that idea and I'm not going to go hunting for it.
 
----
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 5px; border-left: 4px solid #999;">
 
 An aside: the measurements from here on out are going to make _even less_ sense. Because Canada. Due to our proximity to the largest (and really only) exporter of the imperial system, and our propensity to export lumber to them, we measure all our carpentry and woodworking in imperial. For most things _it makes sense_. It's pretty easy to measure a prime number/2^something. Everything is fractional. Except when you're bolting circuit boards to wood. Everything other than lumber is metric. So I'm trying to drill holes for M2.5 and M3 bolts using mm offsets on a board that arrived in imperial, which I'm cutting in metric. It's a disaster.
 
----
+</div>
 
 The other reason I put the drive wheels at the back was to reduce the number of points of contact with the ground. It's counterintuitive, I know. But my reasoning for this was simply that the wedding was at an outdoor venue, and the less hard plastic casters rattling on cobblestone, the better. Also because with the tools available to me, and the very real possibility that the drive wheels, motor mounts and casters were not going to be at the same height without shimming, having an additional pair of casters would cause the body to rock back and forth, which would have been really annoying to work with.
 
@@ -97,7 +102,10 @@ I decided to spec the motor for torque, rather than speed. I used the load curve
 
 This did end up being _way_ on the side of torque rather than speed. Dingus was not a fast mover down the aisle, but it could bully my roomba with extreme predjudice.
 
-(figure out how to put a video here)
+<video width="640" height="480" controls>
+  <source src="/assets/videos/primordial-ooze-part-3/bully-the-roomba.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Power and Electrical
 
