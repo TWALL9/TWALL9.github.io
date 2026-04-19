@@ -6,6 +6,10 @@ categories: otomo
 tags: [otomo, embedded, rust]
 ---
 
+Previously:
+
+[Part 1](/_posts/2026-04-13-primordial-ooze-part-1.md): Introduction and explanation
+
 # Otomo v1 (2020 - 2021) - Teleop via bluetooth, protobuf and embedded Rust
 
 Just before the pandemic, I was working on a project at work that involved transmitting/receiving protobuf-encoded messages between an embedded system and an Android app. I had extremely minimal Android development experience, so I used the opportunity to create a simple Android app to drive around the little toy rover that I had purchased a year before. 

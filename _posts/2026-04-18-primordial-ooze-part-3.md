@@ -6,6 +6,12 @@ categories: otomo
 tags: [otomo, embedded, rust]
 ---
 
+Previously: 
+
+[Part 1](/_posts/2026-04-13-primordial-ooze-part-1.md): Introduction and explanation
+
+[Part 2](/_posts/2026-04-14-primordial-ooze-part-2.md): Making a robot sandwich named after samurai
+
 # Otomo V2 (2022 - 2023): ROS 1, Teleop over the Web
 
 # This is the story of how I got married
