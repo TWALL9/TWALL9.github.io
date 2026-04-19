@@ -16,17 +16,19 @@ I wanted to make a robot. What that robot did changed pretty much every time I a
 - I wanted an outdoor mobile robot to mow the lawn
 - I wanted a platform to learn on, that could evolve as my needs did
 
-At this point in my career (2017-2019), I really only had familiarity with C/C++ on embedded systems, and I really wanted to teach myself higher-level concepts such as SLAM and navigation. However, I was under the naive impression that should be done entirely on an embedded system. So I ended up ordering a simple 4WD toy platform for an Arduino, made the wheels spin, then got frustrated as I tried to create the embedded HAL of my dreams and forgot the forest for the trees.
-
-What I needed was an actual target project. Something to work towards that wasn't just "Figure out how Makefiles work from first principles".
-
 Sometime around 2019, I figured it would be fun to create an automatic lawnmower. I didn't have a yard to mow, but it seemed like a neat idea to create some kind of robot mower, driven by GPS or teleop.
 
-**Automatic Mower -> Auto Mow -> Otomo**
+At this point in my career (2018-2019), I really only had familiarity with C/C++ on embedded systems, and I really wanted to teach myself higher-level concepts such as SLAM and navigation. However, I was under the naive impression that should be done entirely on an embedded system. So I ended up ordering a simple 4WD toy platform for an Arduino, made the wheels spin, then got frustrated as I tried to create the embedded HAL of my dreams and forgot the forest for the trees.
+
+[Just take a look at all the random commits just for me trying to figure out how to make a HAL in C++](https://github.com/TWALL9/otomo/commits/master/?after=d88cb727fee3f5864d59d1c71ea2f33024082b99+69)
+
+[Or got bogged down around how to make Makefiles from first principles](https://github.com/TWALL9/otomo/commit/d88cb727fee3f5864d59d1c71ea2f33024082b99)
+
+**Automatic Mower -> Auto-Mow -> Otomo**
 
 It was a name that sounded cool at the time, and for sure has nothing to do with old [samurai clans](https://en.wikipedia.org/wiki/%C5%8Ctomo_clan) or [androids from RoboCop 3](https://robocop.fandom.com/wiki/Otomo). Once you see the robot you will very munderstand why I think these comparisons are hilarious.
 
-The project started and stopped several times over the years, often going untouched for a year or more. But it's always there in my office, mocking me for never actually finishing the "proof of concept" indoor system, let alone attaching it to an actual mower. It was simply a name that was applied to a bunch of project robots that I've made over the years.
+The project started and stopped several times over the years, often going untouched for a year or more. But it was always there in my office, mocking me.
 
 # It's a Journey
 
