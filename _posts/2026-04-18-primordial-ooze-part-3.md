@@ -3,7 +3,7 @@ layout: post
 title:  "The Primordial Ooze: Part 3"
 date:   2026-04-18 16:00:00 -0400
 categories: otomo
-tags: [otomo, embedded, rust]
+tags: [otomo, dingus, ros, embedded, rust]
 ---
 
 Previously: 

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<article class="tag-page">
+  <header class="tag-page-header">
+    <h1 class="tag-page-title">
+      {{ page.tag | capitalize }}
+    </h1>
+  </header>
+
+  <div class="tag-page-content">
+    {% comment %}
+      Collect and display all posts with this tag
+    {% endcomment %}
+    {% assign tagged_posts = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+    {% assign tagged_projects = site.projects | where_exp: "project", "project.tags contains page.tag" %}
+    
+    {% if tagged_posts.size > 0 or tagged_projects.size > 0 %}
+      
+      {% if tagged_posts.size > 0 %}
+        <section class="tag-posts">
+          <h2>Blog Posts ({{ tagged_posts.size }})</h2>
+          <ul class="post-list">
+            {% for post in tagged_posts %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h3>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+      
+      {% if tagged_projects.size > 0 %}
+        <section class="tag-projects">
+          <h2>Projects ({{ tagged_projects.size }})</h2>
+          <ul class="project-list">
+            {% for project in tagged_projects %}
+              <li>
+                <h3>
+                  <a class="project-link" href="{{ project.url | relative_url }}">
+                    {{ project.title | escape }}
+                  </a>
+                </h3>
+                {% if project.excerpt %}
+                  <p class="project-excerpt">{{ project.excerpt | markdownify | strip_html }}</p>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+      
+    {% else %}
+      <p>No content found with tag "{{ page.tag }}".</p>
+    {% endif %}
+  </div>
+
+  <div class="tag-page-footer">
+    <a href="/tags/">← Back to all tags</a>
+  </div>
+</article>
