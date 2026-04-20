@@ -1,0 +1,5 @@
+- [ ] post about the IMU and keyframe stuff
+- [ ] post about the battery charger when it's built
+- [ ] post about camera stuff (when it's done)
+- [ ] drivetrain plots
+- [ ] 
