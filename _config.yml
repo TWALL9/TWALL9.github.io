@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author:
-  name: Tom Wallis
-  url: twall9.github.io
+# author:
+#   name: Tom Wallis
+#   url: "https://twall9.github.io"
 
 title: the tomzone
 description: >- # this means to ignore newlines until "baseurl:"
   Where I put things I'm working on for rad internet clout.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://twall9.github.io"
-github_username:  TWALL9
+github_username: TWALL9
 
 # Build settings
 theme: minima
