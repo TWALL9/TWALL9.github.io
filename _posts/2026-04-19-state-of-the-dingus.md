@@ -137,11 +137,11 @@ It left me with the only navigable areas being a space about as large as a dinne
 
 However, throughout 2024 I did manage to get it to map and navigate the areas that it could actually fit in. 
 
-![old-apartment](/assets/images/state-of-the-dingus/living_room.pgm)
+![old-apartment](/assets/images/state-of-the-dingus/living_room.png)
 
 Dingus also made an appearance at the inaugural Ontario ROS meetup at Clearpath Robotics HQ, where he was a bit of a hit
 
-(gotta find the picture of this)
+![ros-on](/assets/images/state-of-the-dingus/ros-on.jpg)
 
 I'm the guy absolutely powerstanced in front of the plywood disaster.
 
@@ -150,10 +150,10 @@ I'm the guy absolutely powerstanced in front of the plywood disaster.
 I have a confession: Dingus hasn't moved in nearly a year. The last time it moved was to create a map of the house my wife and I bought in 2025. While we were moving, I took the opportunity to map the entire place without any furniture
 
 (main floor)
-![new-home](/assets/images/state-of-the-dingus/new_home.pgm)
+![new-home](/assets/images/state-of-the-dingus/new_home.png)
 
 (upstairs)
-![upstairs](/assets/images/state-of-the-dingus/upstairs.pgm)
+![upstairs](/assets/images/state-of-the-dingus/upstairs.png)
 
 The main reason it hasn't moved is: motivation
 
